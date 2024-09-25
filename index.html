@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test TOTP Auth App</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        textarea, input {
+            width: 100%;
+            margin: 10px 0;
+        }
+        #qrImage {
+            display: none; /* Hide by default */
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Test TOTP Auth App</h1>
+
+    <label for="appPointer">App Pointer (path)</label>
+    <input type="text" id="appPointer" value="/generate-qr" placeholder="Enter app pointer (default: '/generate-qr')">
+
+    <label for="variables">JSON Variables (convert to JSON)</label>
+    <textarea id="variables" rows="6" placeholder='Enter valid JSON (e.g., {"api_key": "123456"})'>{"api_key": "123456"}</textarea>
+
+    <button onclick="fetchData()">Send Request</button>
+
+    <h3>Response:</h3>
+    <pre id="response">Click the button to see the response here...</pre>
+
+    <!-- Image to display the QR code -->
+    <img id="qrImage" alt="QR Code Image">
+
+    <script>
+        // Function to fetch data with parameters (app_pointer, variables)
+        function fetchData() {
+            // Get the app pointer and variables from the inputs
+            const appPointer = document.getElementById('appPointer').value || "/generate-qr";
+            const variablesText = document.getElementById('variables').value;
+            console.log(appPointer, variablesText);
+            
+            let variables = {};
+            try {
+                // Parse the variables directly as JSON
+                variables = JSON.parse(variablesText);
+            } catch (error) {
+                alert("Invalid JSON format in the textarea!");
+                return;
+            }
+
+            // Combine the base URL with the app pointer
+            const url = `https://themiracleone.com/totp-auth${appPointer}`;
+
+            // Send the fetch request to the URL with the variables as the body
+            fetch(url, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                body: JSON.stringify(variables)
+            })
+            .then(response => response.json()) // Expecting a JSON response
+            .then(data => {
+                // Display the JSON response on the page
+                document.getElementById('response').textContent = JSON.stringify(data, null, 4);
+
+                // Check if the response contains a qr_code field
+                if (data.output && data.output.qr_code) {
+                    // Display the QR code image
+                    const qrImage = document.getElementById('qrImage');
+                    qrImage.src = data.output.qr_code;
+                    qrImage.style.display = "block"; // Make the image visible
+                } else {
+                    // Hide the QR code image if no qr_code exists
+                    document.getElementById('qrImage').style.display = "none";
+                }
+            })
+            .catch(error => {
+                document.getElementById('response').textContent = "Error: " + error;
+            });
+        }
+    </script>
+</body>
+</html>

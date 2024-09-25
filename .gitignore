@@ -1,0 +1,8 @@
+.env
+.htaccess
+node_modules
+old_app.js
+sample.js
+error.html
+.log
+public/

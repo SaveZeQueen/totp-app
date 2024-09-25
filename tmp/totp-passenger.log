@@ -1,0 +1,340 @@
+App 1594666 output: Application is running
+App 1606868 output: Application is running
+App 1606868 output: {}
+App 1606868 output: { api_key: '123456' }
+App 1606868 output: {}
+App 1606868 output: { api_key: '123456' }
+App 1606868 output: {}
+App 1606868 output: { api_key: '123456' }
+App 1645806 output: Application is running
+App 1645806 output: { api_key: '123456' }
+App 1645806 output: QR code generation error: ReferenceError: TextEncoder is not defined
+App 1645806 output:     at new ByteData (/home/themira1/nodevenv/totp-auth/10/lib/node_modules/qrcode/lib/core/byte-data.js:6:21)
+App 1645806 output:     at buildSingleSegment (/home/themira1/nodevenv/totp-auth/10/lib/node_modules/qrcode/lib/core/segments.js:262:14)
+App 1645806 output:     at /home/themira1/nodevenv/totp-auth/10/lib/node_modules/qrcode/lib/core/segments.js:286:16
+App 1645806 output:     at Array.reduce (<anonymous>)
+App 1645806 output:     at Object.fromArray (/home/themira1/nodevenv/totp-auth/10/lib/node_modules/qrcode/lib/core/segments.js:282:16)
+App 1645806 output:     at Object.rawSplit (/home/themira1/nodevenv/totp-auth/10/lib/node_modules/qrcode/lib/core/segments.js:327:18)
+App 1645806 output:     at createSymbol (/home/themira1/nodevenv/totp-auth/10/lib/node_modules/qrcode/lib/core/qrcode.js:387:36)
+App 1645806 output:     at Object.create (/home/themira1/nodevenv/totp-auth/10/lib/node_modules/qrcode/lib/core/qrcode.js:494:10)
+App 1645806 output:     at /home/themira1/nodevenv/totp-auth/10/lib/node_modules/qrcode/lib/server.js:71:29
+App 1645806 output:     at new Promise (<anonymous>)
+App 1659425 output: Application is running
+App 1659425 output: { api_key: '123456' }
+App 1659425 output: QR code generation error: ReferenceError: TextEncoder is not defined
+App 1659425 output:     at new ByteData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/byte-data.js:6:21)
+App 1659425 output:     at buildSingleSegment (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:262:14)
+App 1659425 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:286:16
+App 1659425 output:     at Array.reduce (<anonymous>)
+App 1659425 output:     at Object.fromArray (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:282:16)
+App 1659425 output:     at Object.rawSplit (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:327:18)
+App 1659425 output:     at createSymbol (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:387:36)
+App 1659425 output:     at Object.create (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:494:10)
+App 1659425 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/server.js:71:29
+App 1659425 output:     at new Promise (<anonymous>)
+App 1659425 output: { api_key: '123456' }
+App 1659425 output: QR code generation error: ReferenceError: TextEncoder is not defined
+App 1659425 output:     at new ByteData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/byte-data.js:6:21)
+App 1659425 output:     at buildSingleSegment (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:262:14)
+App 1659425 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:286:16
+App 1659425 output:     at Array.reduce (<anonymous>)
+App 1659425 output:     at Object.fromArray (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:282:16)
+App 1659425 output:     at Object.rawSplit (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:327:18)
+App 1659425 output:     at createSymbol (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:387:36)
+App 1659425 output:     at Object.create (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:494:10)
+App 1659425 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/server.js:71:29
+App 1659425 output:     at new Promise (<anonymous>)
+App 1659425 output: { api_key: '123456' }
+App 1659425 output: QR code generation error: ReferenceError: TextEncoder is not defined
+App 1659425 output:     at new ByteData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/byte-data.js:6:21)
+App 1659425 output:     at buildSingleSegment (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:262:14)
+App 1659425 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:286:16
+App 1659425 output:     at Array.reduce (<anonymous>)
+App 1659425 output:     at Object.fromArray (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:282:16)
+App 1659425 output:     at Object.rawSplit (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:327:18)
+App 1659425 output:     at createSymbol (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:387:36)
+App 1659425 output:     at Object.create (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:494:10)
+App 1659425 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/server.js:71:29
+App 1659425 output:     at new Promise (<anonymous>)
+App 1659425 output: { api_key: '123456' }
+App 1659425 output: QR code generation error: ReferenceError: TextEncoder is not defined
+App 1659425 output:     at new ByteData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/byte-data.js:6:21)
+App 1659425 output:     at buildSingleSegment (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:262:14)
+App 1659425 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:286:16
+App 1659425 output:     at Array.reduce (<anonymous>)
+App 1659425 output:     at Object.fromArray (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:282:16)
+App 1659425 output:     at Object.rawSplit (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:327:18)
+App 1659425 output:     at createSymbol (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:387:36)
+App 1659425 output:     at Object.create (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:494:10)
+App 1659425 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/server.js:71:29
+App 1659425 output:     at new Promise (<anonymous>)
+App 1659425 output: { api_key: '123456' }
+App 1659425 output: QR code generation error: ReferenceError: TextEncoder is not defined
+App 1659425 output:     at new ByteData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/byte-data.js:6:21)
+App 1659425 output:     at buildSingleSegment (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:262:14)
+App 1659425 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:286:16
+App 1659425 output:     at Array.reduce (<anonymous>)
+App 1659425 output:     at Object.fromArray (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:282:16)
+App 1659425 output:     at Object.rawSplit (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:327:18)
+App 1659425 output:     at createSymbol (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:387:36)
+App 1659425 output:     at Object.create (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:494:10)
+App 1659425 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/server.js:71:29
+App 1659425 output:     at new Promise (<anonymous>)
+App 1659425 output: { api_key: '123456' }
+App 1659425 output: QR code generation error: ReferenceError: TextEncoder is not defined
+App 1659425 output:     at new ByteData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/byte-data.js:6:21)
+App 1659425 output:     at buildSingleSegment (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:262:14)
+App 1659425 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:286:16
+App 1659425 output:     at Array.reduce (<anonymous>)
+App 1659425 output:     at Object.fromArray (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:282:16)
+App 1659425 output:     at Object.rawSplit (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:327:18)
+App 1659425 output:     at createSymbol (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:387:36)
+App 1659425 output:     at Object.create (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:494:10)
+App 1659425 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/server.js:71:29
+App 1659425 output:     at new Promise (<anonymous>)
+App 1659425 output: { api_key: '123456' }
+App 1659425 output: QR code generation error: ReferenceError: TextEncoder is not defined
+App 1659425 output:     at new ByteData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/byte-data.js:6:21)
+App 1659425 output:     at buildSingleSegment (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:262:14)
+App 1659425 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:286:16
+App 1659425 output:     at Array.reduce (<anonymous>)
+App 1659425 output:     at Object.fromArray (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:282:16)
+App 1659425 output:     at Object.rawSplit (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:327:18)
+App 1659425 output:     at createSymbol (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:387:36)
+App 1659425 output:     at Object.create (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:494:10)
+App 1659425 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/server.js:71:29
+App 1659425 output:     at new Promise (<anonymous>)
+App 1659425 output: { api_key: '123456' }
+App 1659425 output: QR code generation error: ReferenceError: TextEncoder is not defined
+App 1659425 output:     at new ByteData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/byte-data.js:6:21)
+App 1659425 output:     at buildSingleSegment (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:262:14)
+App 1659425 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:286:16
+App 1659425 output:     at Array.reduce (<anonymous>)
+App 1659425 output:     at Object.fromArray (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:282:16)
+App 1659425 output:     at Object.rawSplit (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:327:18)
+App 1659425 output:     at createSymbol (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:387:36)
+App 1659425 output:     at Object.create (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:494:10)
+App 1659425 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/server.js:71:29
+App 1659425 output:     at new Promise (<anonymous>)
+App 1670544 output: Application is running
+App 1670544 output: { api_key: '123456' }
+App 1670544 output: TextEncoder is undefined
+App 1670544 output: QR code generation error: ReferenceError: TextEncoder is not defined
+App 1670544 output:     at new ByteData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/byte-data.js:6:21)
+App 1670544 output:     at buildSingleSegment (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:262:14)
+App 1670544 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:286:16
+App 1670544 output:     at Array.reduce (<anonymous>)
+App 1670544 output:     at Object.fromArray (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:282:16)
+App 1670544 output:     at Object.rawSplit (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/segments.js:327:18)
+App 1670544 output:     at createSymbol (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:387:36)
+App 1670544 output:     at Object.create (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/core/qrcode.js:494:10)
+App 1670544 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/qrcode/lib/server.js:71:29
+App 1670544 output:     at new Promise (<anonymous>)
+App 1682297 output: Application is running
+App 1682297 output: { api_key: '123456' }
+App 1682297 output: { api_key: '123456' }
+App 1682297 output: { api_key: '123457' }
+App 1682297 output: { api_key: '123456' }
+App 1708341 output: Application is running
+App 1708341 output: { api_key: '123456' }
+App 1708341 output: {
+App 1708341 output:   api_key: '123456',
+App 1708341 output:   token: '595421',
+App 1708341 output:   secret: 'HFEXGSDWGBVT6TSQINWVGTDGN5KCUSK2'
+App 1708341 output: }
+App 1774257 output: Application is running
+App 1778582 output: node:internal/modules/cjs/loader:1148
+App 1778582 output:   throw err;
+App 1778582 output:   ^
+App 1778582 output: Error: Cannot find module 'cors'
+App 1778582 output: Require stack:
+App 1778582 output: - /home/themira1/totp-auth/app.js
+App 1778582 output: - /opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js
+App 1778582 output:     at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+App 1778582 output:     at Module._load (node:internal/modules/cjs/loader:986:27)
+App 1778582 output:     at Module.require (node:internal/modules/cjs/loader:1233:19)
+App 1778582 output:     at Module.require (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 1778582 output:     at require (node:internal/modules/helpers:179:18)
+App 1778582 output:     at Object.<anonymous> (/home/themira1/totp-auth/app.js:4:14)
+App 1778582 output:     at Module._compile (node:internal/modules/cjs/loader:1358:14)
+App 1778582 output:     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+App 1778582 output:     at Module.load (node:internal/modules/cjs/loader:1208:32)
+App 1778582 output:     at Module._load (node:internal/modules/cjs/loader:1024:12) {
+App 1778582 output:   code: 'MODULE_NOT_FOUND',
+App 1778582 output:   requireStack: [
+App 1778582 output:     '/home/themira1/totp-auth/app.js',
+App 1778582 output:     '/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js'
+App 1778582 output:   ]
+App 1778582 output: }
+App 1778582 output: Node.js v20.16.0
+App 1779060 output: node:internal/modules/cjs/loader:1148
+App 1779060 output:   throw err;
+App 1779060 output:   ^
+App 1779060 output: Error: Cannot find module 'cors'
+App 1779060 output: Require stack:
+App 1779060 output: - /home/themira1/totp-auth/app.js
+App 1779060 output: - /opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js
+App 1779060 output:     at Module._resolveFilename (node:internal/modules/cjs/loader:1145:15)
+App 1779060 output:     at Module._load (node:internal/modules/cjs/loader:986:27)
+App 1779060 output:     at Module.require (node:internal/modules/cjs/loader:1233:19)
+App 1779060 output:     at Module.require (/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js:80:25)
+App 1779060 output:     at require (node:internal/modules/helpers:179:18)
+App 1779060 output:     at Object.<anonymous> (/home/themira1/totp-auth/app.js:4:14)
+App 1779060 output:     at Module._compile (node:internal/modules/cjs/loader:1358:14)
+App 1779060 output:     at Module._extensions..js (node:internal/modules/cjs/loader:1416:10)
+App 1779060 output:     at Module.load (node:internal/modules/cjs/loader:1208:32)
+App 1779060 output:     at Module._load (node:internal/modules/cjs/loader:1024:12) {
+App 1779060 output:   code: 'MODULE_NOT_FOUND',
+App 1779060 output:   requireStack: [
+App 1779060 output:     '/home/themira1/totp-auth/app.js',
+App 1779060 output:     '/opt/cpanel/ea-ruby27/root/usr/share/passenger/helper-scripts/node-loader.js'
+App 1779060 output:   ]
+App 1779060 output: }
+App 1779060 output: Node.js v20.16.0
+App 1788482 output: Application is running
+App 1811674 output: Application is running
+App 1811674 output: Error sending email: Error: Missing credentials for "PLAIN"
+App 1811674 output:     at SMTPConnection._formatError (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:807:19)
+App 1811674 output:     at SMTPConnection.login (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:452:38)
+App 1811674 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-transport/index.js:272:32
+App 1811674 output:     at SMTPConnection.<anonymous> (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:215:17)
+App 1811674 output:     at Object.onceWrapper (node:events:633:28)
+App 1811674 output:     at SMTPConnection.emit (node:events:519:28)
+App 1811674 output:     at SMTPConnection._actionEHLO (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1369:14)
+App 1811674 output:     at SMTPConnection._processResponse (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:991:20)
+App 1811674 output:     at SMTPConnection._onData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:772:14)
+App 1811674 output:     at SMTPConnection._onSocketData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:195:44) {
+App 1811674 output:   code: 'EAUTH',
+App 1811674 output:   command: 'API'
+App 1811674 output: }
+App 1811674 output: Error in sending email: Error: Missing credentials for "PLAIN"
+App 1811674 output:     at SMTPConnection._formatError (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:807:19)
+App 1811674 output:     at SMTPConnection.login (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:452:38)
+App 1811674 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-transport/index.js:272:32
+App 1811674 output:     at SMTPConnection.<anonymous> (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:215:17)
+App 1811674 output:     at Object.onceWrapper (node:events:633:28)
+App 1811674 output:     at SMTPConnection.emit (node:events:519:28)
+App 1811674 output:     at SMTPConnection._actionEHLO (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1369:14)
+App 1811674 output:     at SMTPConnection._processResponse (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:991:20)
+App 1811674 output:     at SMTPConnection._onData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:772:14)
+App 1811674 output:     at SMTPConnection._onSocketData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:195:44) {
+App 1811674 output:   code: 'EAUTH',
+App 1811674 output:   command: 'API'
+App 1811674 output: }
+App 1811674 output: Error sending email: Error: Missing credentials for "PLAIN"
+App 1811674 output:     at SMTPConnection._formatError (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:807:19)
+App 1811674 output:     at SMTPConnection.login (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:452:38)
+App 1811674 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-transport/index.js:272:32
+App 1811674 output:     at SMTPConnection.<anonymous> (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:215:17)
+App 1811674 output:     at Object.onceWrapper (node:events:633:28)
+App 1811674 output:     at SMTPConnection.emit (node:events:519:28)
+App 1811674 output:     at SMTPConnection._actionEHLO (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1369:14)
+App 1811674 output:     at SMTPConnection._processResponse (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:991:20)
+App 1811674 output:     at SMTPConnection._onData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:772:14)
+App 1811674 output:     at SMTPConnection._onSocketData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:195:44) {
+App 1811674 output:   code: 'EAUTH',
+App 1811674 output:   command: 'API'
+App 1811674 output: }
+App 1811674 output: Error in sending email: Error: Missing credentials for "PLAIN"
+App 1811674 output:     at SMTPConnection._formatError (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:807:19)
+App 1811674 output:     at SMTPConnection.login (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:452:38)
+App 1811674 output:     at /home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-transport/index.js:272:32
+App 1811674 output:     at SMTPConnection.<anonymous> (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:215:17)
+App 1811674 output:     at Object.onceWrapper (node:events:633:28)
+App 1811674 output:     at SMTPConnection.emit (node:events:519:28)
+App 1811674 output:     at SMTPConnection._actionEHLO (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1369:14)
+App 1811674 output:     at SMTPConnection._processResponse (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:991:20)
+App 1811674 output:     at SMTPConnection._onData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:772:14)
+App 1811674 output:     at SMTPConnection._onSocketData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:195:44) {
+App 1811674 output:   code: 'EAUTH',
+App 1811674 output:   command: 'API'
+App 1811674 output: }
+App 1826523 output: Application is running
+App 1826523 output: Error sending email: Error: Invalid login: 535 Incorrect authentication data
+App 1826523 output:     at SMTPConnection._formatError (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:807:19)
+App 1826523 output:     at SMTPConnection._actionAUTHComplete (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1586:34)
+App 1826523 output:     at SMTPConnection.<anonymous> (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:554:26)
+App 1826523 output:     at SMTPConnection._processResponse (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:991:20)
+App 1826523 output:     at SMTPConnection._onData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:772:14)
+App 1826523 output:     at SMTPConnection._onSocketData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+App 1826523 output:     at TLSSocket.emit (node:events:519:28)
+App 1826523 output:     at addChunk (node:internal/streams/readable:559:12)
+App 1826523 output:     at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+App 1826523 output:     at Readable.push (node:internal/streams/readable:390:5) {
+App 1826523 output:   code: 'EAUTH',
+App 1826523 output:   response: '535 Incorrect authentication data',
+App 1826523 output:   responseCode: 535,
+App 1826523 output:   command: 'AUTH PLAIN'
+App 1826523 output: }
+App 1826523 output: Error in sending email: Error: Invalid login: 535 Incorrect authentication data
+App 1826523 output:     at SMTPConnection._formatError (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:807:19)
+App 1826523 output:     at SMTPConnection._actionAUTHComplete (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1586:34)
+App 1826523 output:     at SMTPConnection.<anonymous> (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:554:26)
+App 1826523 output:     at SMTPConnection._processResponse (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:991:20)
+App 1826523 output:     at SMTPConnection._onData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:772:14)
+App 1826523 output:     at SMTPConnection._onSocketData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+App 1826523 output:     at TLSSocket.emit (node:events:519:28)
+App 1826523 output:     at addChunk (node:internal/streams/readable:559:12)
+App 1826523 output:     at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+App 1826523 output:     at Readable.push (node:internal/streams/readable:390:5) {
+App 1826523 output:   code: 'EAUTH',
+App 1826523 output:   response: '535 Incorrect authentication data',
+App 1826523 output:   responseCode: 535,
+App 1826523 output:   command: 'AUTH PLAIN'
+App 1826523 output: }
+App 1854612 output: Application is running
+App 1854612 output: Error sending email: Error: Invalid login: 535 Incorrect authentication data
+App 1854612 output:     at SMTPConnection._formatError (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:807:19)
+App 1854612 output:     at SMTPConnection._actionAUTHComplete (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1586:34)
+App 1854612 output:     at SMTPConnection.<anonymous> (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:554:26)
+App 1854612 output:     at SMTPConnection._processResponse (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:991:20)
+App 1854612 output:     at SMTPConnection._onData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:772:14)
+App 1854612 output:     at SMTPConnection._onSocketData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+App 1854612 output:     at TLSSocket.emit (node:events:519:28)
+App 1854612 output:     at addChunk (node:internal/streams/readable:559:12)
+App 1854612 output:     at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+App 1854612 output:     at Readable.push (node:internal/streams/readable:390:5) {
+App 1854612 output:   code: 'EAUTH',
+App 1854612 output:   response: '535 Incorrect authentication data',
+App 1854612 output:   responseCode: 535,
+App 1854612 output:   command: 'AUTH PLAIN'
+App 1854612 output: }
+App 1854612 output: Error in sending email: Error: Invalid login: 535 Incorrect authentication data
+App 1854612 output:     at SMTPConnection._formatError (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:807:19)
+App 1854612 output:     at SMTPConnection._actionAUTHComplete (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:1586:34)
+App 1854612 output:     at SMTPConnection.<anonymous> (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:554:26)
+App 1854612 output:     at SMTPConnection._processResponse (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:991:20)
+App 1854612 output:     at SMTPConnection._onData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:772:14)
+App 1854612 output:     at SMTPConnection._onSocketData (/home/themira1/nodevenv/totp-auth/20/lib/node_modules/nodemailer/lib/smtp-connection/index.js:195:44)
+App 1854612 output:     at TLSSocket.emit (node:events:519:28)
+App 1854612 output:     at addChunk (node:internal/streams/readable:559:12)
+App 1854612 output:     at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+App 1854612 output:     at Readable.push (node:internal/streams/readable:390:5) {
+App 1854612 output:   code: 'EAUTH',
+App 1854612 output:   response: '535 Incorrect authentication data',
+App 1854612 output:   responseCode: 535,
+App 1854612 output:   command: 'AUTH PLAIN'
+App 1854612 output: }
+App 1906095 output: Application is running
+App 1906095 output: Email sent: <ff99007c-5c40-cb09-b748-ce9ef89254ce@yourdomain.com>
+App 1906095 output: Email sent: <2e335ba3-1c4c-53fe-2d62-370f632c9d16@themiracleone.com>
+App 2439465 output: Application is running
+App 3868412 output: Application is running
+App 4030118 output: Application is running
+App 4139984 output: Application is running
+App 166422 output: Application is running
+App 920725 output: Application is running
+App 1006044 output: Application is running
+App 1099899 output: Application is running
+App 1733362 output: Application is running
+App 1796255 output: Application is running
+App 1841764 output: Application is running
+App 1870762 output: Application is running
+App 1870762 output: Email sent: <fa20ce8e-9a2f-5a42-2bb6-16df84e36869@themiracleone.com>
+App 3657392 output: Application is running
+App 3838407 output: Application is running
+App 91258 output: Application is running
+App 605511 output: Application is running
+App 653018 output: Application is running
+App 2553842 output: Application is running
+App 2553842 output: Email sent: <bb00370f-307c-3628-3690-57d82fb38bfb@themiracleone.com>
