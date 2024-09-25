@@ -73,10 +73,10 @@ EMAIL_PASSWORD=your_email_password
 To start the application, run:
 
 ```bash
-npm start
+node app.js
 ```
 
-By default, the app listens on port `3000` in development mode.
+By default, the app listens on port `3000` in development mode, in production the default is 0 which is an auto-select port
 
 ---
 
