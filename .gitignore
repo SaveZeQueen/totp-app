@@ -7,3 +7,4 @@ error.html
 .log
 public/
 tmp/
+emailTemplates/*.html

@@ -259,11 +259,34 @@ app.route('/totp-auth/deactivate')
 
         // Decrypt the secret and salt from the database
         const secret = rows[0].totp_secret;
-        const decryptedSecret = await decryptSecret(secret, salt);
         
-        console.log('Decrypted secret:', decryptedSecret);
-        return res.json({ success: false, message: 'Decryption successful', decryptedSecret });
+        // verify secret is not empty
+        if (!secret) {
+            return res.status(400).json({ success: false, message: 'Error finding client: Contact admin' });
+        }
 
+        // Verify the TOTP token for login or regular verification
+        const verified = speakeasy.totp.verify({ secret, encoding: 'base32', token });
+
+        if (!verified) {
+            return res.status(400).json({ success: false, message: 'Verification failed' });
+        }
+
+        // If verification is successful, update the client's TOTP information
+        const updateQuery = `
+            UPDATE clients
+            SET totp_secret = NULL, recovery_key = NULL, recovery_salt = NULL
+            WHERE id = ?
+        `;
+        const [result] = await pool.execute(updateQuery, [client_id]);
+
+        // If no rows were affected, return an error
+        if (result.affectedRows === 0) {
+            return res.status(500).json({ success: false, message: 'Failed to deactivate. Contact admin.' });
+        }
+
+        // If verification and update are successful, return a success message
+        res.json({ success: true, message: 'Two-Factor Authentication Deactivated' });
     });
 
 
